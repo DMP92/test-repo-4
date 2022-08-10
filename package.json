@@ -1,9 +1,11 @@
 {
   "name": "cool-ox-test-2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": ".dist/bundle.js",
   "files": [ 
-    "dist"
+    "dist",
+    "src",
+    "static"
   ],
   "repository": {
     "type": "git",
