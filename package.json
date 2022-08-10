@@ -1,5 +1,17 @@
 {
-  "repository": "#",
+  "name": "cool-ox-test-2",
+  "version": "1.0.0",
+  "main": ".dist/bundle.js",
+  "files": [ 
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMP92/test-repo-4.git"
+  },
+  "keywords": [
+    "cool-ox-test"
+  ],
   "license": "UNLICENSED",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
